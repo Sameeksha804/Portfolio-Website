@@ -31,8 +31,8 @@ Before running this project, make sure you have:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+git clone https://github.com/Sameeksha804/Portfolio-Website.git
+cd Portfolio-Website
 ```
 
 2. Install the required packages:
@@ -90,7 +90,7 @@ All messages are sent to the configured email address with a professional HTML t
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/portfolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Sameeksha804/Portfolio-Website/issues).
 
 ## 📝 License
 
@@ -100,8 +100,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Sameeksha Shrivastava**
 - Email: simisuchi804@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@Sameeksha804](https://github.com/Sameeksha804)
 
 ---
 
-⭐️ If you like this project, please give it a star on GitHub! 
+⭐️ If you like this project, please give it a star on GitHub!
