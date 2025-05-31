@@ -88,20 +88,5 @@ All messages are sent to the configured email address with a professional HTML t
 - Form validation is implemented on both client and server side
 - Error handling and logging are implemented throughout the application
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/portfolio/issues).
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👤 Author
-
-**Sameeksha Shrivastava**
-- Email: simisuchi804@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-
----
 
 ⭐️ If you like this project, please give it a star on GitHub! 
