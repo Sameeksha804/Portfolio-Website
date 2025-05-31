@@ -20,9 +20,9 @@ app = Flask(__name__,
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'simisuchi804@gmail.com'
-app.config['MAIL_PASSWORD'] = 'iynl xxlp iokd kemt'  # Your app password
-app.config['MAIL_DEFAULT_SENDER'] = 'simisuchi804@gmail.com'
+app.config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME', 'simisuchi804@gmail.com')
+app.config['MAIL_PASSWORD'] = os.getenv('MAIL_PASSWORD', 'iynl xxlp iokd kemt')
+app.config['MAIL_DEFAULT_SENDER'] = os.getenv('MAIL_USERNAME', 'simisuchi804@gmail.com')
 
 # Debug email configuration
 logger.debug(f"Email configuration: {app.config['MAIL_USERNAME']}")
@@ -153,5 +153,9 @@ def send_email():
         logger.error(f"Error sending email: {str(e)}", exc_info=True)
         return jsonify({'error': f'Failed to send email: {str(e)}'}), 500
 
+# For local development
 if __name__ == '__main__':
-    app.run(debug=True) 
+    app.run(debug=True)
+
+# For Vercel deployment
+app = app 
